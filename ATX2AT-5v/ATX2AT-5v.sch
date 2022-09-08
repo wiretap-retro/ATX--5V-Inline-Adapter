@@ -1,0 +1,133 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM7905_TO220 U1
+U 1 1 60A56D44
+P 5800 3900
+F 0 "U1" H 5800 3751 50  0000 C CNN
+F 1 "LM7905_TO220" H 5800 3660 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 5800 3700 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3800 6950 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	4650 3600 4650 3800
+Wire Wire Line
+	5800 3600 6450 3600
+Wire Wire Line
+	6100 3900 6450 3900
+Wire Wire Line
+	4650 3600 5150 3600
+Wire Wire Line
+	4650 3900 5150 3900
+$Comp
+L Device:CP C1
+U 1 1 60A5DFEE
+P 5150 3750
+F 0 "C1" H 5268 3796 50  0000 L CNN
+F 1 "2.2uF" H 5268 3705 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 5188 3600 50  0001 C CNN
+F 3 "~" H 5150 3750 50  0001 C CNN
+	1    5150 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 3600
+Wire Wire Line
+	5150 3600 5800 3600
+Connection ~ 5150 3900
+Wire Wire Line
+	5150 3900 5500 3900
+$Comp
+L Device:CP C2
+U 1 1 60A5E80A
+P 6450 3750
+F 0 "C2" H 6568 3796 50  0000 L CNN
+F 1 "1uF" H 6568 3705 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 6488 3600 50  0001 C CNN
+F 3 "~" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 3600
+Wire Wire Line
+	6450 3600 6950 3600
+Connection ~ 6450 3900
+Wire Wire Line
+	6450 3900 6950 3900
+$Comp
+L Connector_Generic:Conn_01x01 J1(GND)1
+U 1 1 60A61F7E
+P 4450 3800
+F 0 "J1(GND)1" H 4650 3600 50  0000 C CNN
+F 1 "Conn_01x01" H 4700 3700 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4450 3800 50  0001 C CNN
+F 3 "~" H 4450 3800 50  0001 C CNN
+	1    4450 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1(-12V)1
+U 1 1 60A634BC
+P 4450 3900
+F 0 "J1(-12V)1" H 4650 4000 50  0000 C CNN
+F 1 "Conn_01x01" H 4700 4100 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4450 3900 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2(GND)1
+U 1 1 60A63FC2
+P 7150 3800
+F 0 "J2(GND)1" H 7200 4000 50  0000 L CNN
+F 1 "Conn_01x01" H 7200 3900 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 7150 3800 50  0001 C CNN
+F 3 "~" H 7150 3800 50  0001 C CNN
+	1    7150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2(-5V)1
+U 1 1 60A64D7F
+P 7150 3900
+F 0 "J2(-5V)1" H 7200 3800 50  0000 L CNN
+F 1 "Conn_01x01" H 7200 3700 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 7150 3900 50  0001 C CNN
+F 3 "~" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2(-12V)1
+U 1 1 60A6B338
+P 7150 4300
+F 0 "J2(-12V)1" H 7230 4342 50  0000 L CNN
+F 1 "Conn_01x01" H 7230 4251 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 7150 4300 50  0001 C CNN
+F 3 "~" H 7150 4300 50  0001 C CNN
+	1    7150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3900 5150 4300
+Wire Wire Line
+	5150 4300 6950 4300
+$EndSCHEMATC
