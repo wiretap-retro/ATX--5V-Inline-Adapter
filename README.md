@@ -16,10 +16,10 @@ A small inline adapter for an ATX power supply to generate -5VDC for Retro PCs. 
 * Solder U1, making sure to bend the legs at the appropriate length. Clip the excess.
 * Use a reference of the ATX and AT power pinouts to find the -12V, -5V and GND connections on the ATX to AT harness. Be careful, because some of the harnesses have incorrect color wires.
 * Cut the wires in an appropriate location to solder the -5V adapter in place. Start at the top side (ATX connector side) with -12V and GND wires.
-* Strip the -12V and GND wires that are attached to the ATX connector side and solder them to the PCB.
+* Strip the -12V and GND wires that are attached to the ATX connector side and solder them to the PCB side with the 2 plated through-holes.
 * The -12V, -5V and GND on the AT side needs to be cut back to the length of the PCB and stripped.
 * Place your heatshrink over the 3 wires and slide it down.
-* Solder the -12V, -5V and GND from the AT side to the PCB.
+* Solder the -12V, -5V and GND from the AT side to the PCB with the 3 plated through-holes.
 * Place the heatshrink over the PCB and heat it up to shrink it in place. This will protect against short circuits while installed in your computer.
 * There should be one -5V wire hanging from the ATX side of your wire harness. Place some small heatshrink over the end of it to insulate it, or just remove it from the ATX side of the harness if you have the pin removal tool available.
 
