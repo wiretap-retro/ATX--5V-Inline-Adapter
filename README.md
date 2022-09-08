@@ -26,3 +26,6 @@ A small inline adapter for an ATX power supply to generate -5VDC for Retro PCs. 
 This is what it should look like when finished!
 
 ![installed](installed.jpg)
+
+## Other
+This project is open source hardware. Do what you want with it.
