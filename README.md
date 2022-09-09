@@ -1,4 +1,4 @@
-# ATX--5V-Inline-Adapter
+# ATX -5V Inline Adapter
 A small inline adapter for an ATX power supply to generate -5VDC for Retro PCs. This adapter has been tested and works great.
 
 ![pcb](front.JPG)
