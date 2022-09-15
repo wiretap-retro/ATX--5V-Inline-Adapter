@@ -8,7 +8,7 @@ A small inline adapter for an ATX power supply to generate -5VDC for Retro PC's 
 * C2 - Kemet T491C105K050AT
 * U1 - STMicroelectronics L7905CV
 * PCB from the Gerber files in this project (JLCPCB, OSH Park, PCBway, etc.)
-* ATX to AT adapter (Aliexpress, Amazon, Ebay, etc.)
+* ATX to AT wiring harness adapter (Aliexpress, Amazon, Ebay, etc.)
 * Heatshrink tubing
 
 ## Installation
